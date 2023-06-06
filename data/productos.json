@@ -1,0 +1,86 @@
+[
+  {
+    "id": "pid8052",
+    "title": "Producto Postman",
+    "description": "Este es un producto de Postman",
+    "code": "a1",
+    "price": 100,
+    "status": true,
+    "stock": 10,
+    "category": "Categoría Postman",
+    "thumbnails": "Sin imagen"
+  },
+  {
+    "id": "pid1b3e",
+    "title": "Titulo modificado",
+    "description": "Descripción modificada",
+    "code": "a2",
+    "price": 500,
+    "status": true,
+    "stock": 20,
+    "category": "Categoría Postman",
+    "thumbnails": [
+      "/ruta/de/image1.jpg",
+      "/ruta/de/image2.jpg",
+      "/ruta/de/image3.jpg"
+    ]
+  },
+  {
+    "id": "pid5289",
+    "title": "324",
+    "description": "wtrrt",
+    "code": "4twert",
+    "price": "4",
+    "status": true,
+    "stock": "4",
+    "category": "rte",
+    "thumbnails": "Sin imagen"
+  },
+  {
+    "id": "pidacb7",
+    "title": "324",
+    "description": "wtrrt",
+    "code": "4twertsdf",
+    "price": "4",
+    "status": true,
+    "stock": "4",
+    "category": "rte",
+    "thumbnails": "Sin imagen"
+  },
+  {
+    "id": "pid6422",
+    "title": "Producto Postman NUEVO",
+    "description": "Este es un producto de Postman NUEVO",
+    "code": "aewd6s7",
+    "price": 600,
+    "status": true,
+    "stock": 60,
+    "category": "Categoría Postman",
+    "thumbnails": "Sin imagen"
+  },
+  {
+    "id": "pideaed",
+    "title": "Producto Postman NUEVO",
+    "description": "Este es un producto de Postman NUEVO",
+    "code": "aes7",
+    "price": 600,
+    "status": true,
+    "stock": 60,
+    "category": "Categoría Postman",
+    "thumbnails": "Sin imagen"
+  },
+  {
+    "id": "pid65b3",
+    "status": true
+  },
+  {
+    "id": "pid43ec",
+    "title": "dsf",
+    "description": "fs",
+    "code": "sdaf",
+    "price": "3",
+    "status": true,
+    "stock": "3",
+    "category": "asfd"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "cide98d",
+    "products": [
+      {
+        "product": "pid4c05",
+        "quantity": 4
+      },
+      {
+        "product": "pid6f98",
+        "quantity": 3
+      },
+      {
+        "product": "pid155a",
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": "cidc57b",
+    "products": [
+      {
+        "product": "pid0316",
+        "quantity": 2
+      }
+    ]
+  }
+]
