@@ -138,7 +138,7 @@ class ProductRouter {
         status: true,
         stock,
         category,
-        thumbnails: image ? image.map((image) => '/img/' + image.filename) : ['Sin imagen'],
+        thumbnails: image ? image.map((image) => '/productos/' + image.filename) : ['Sin imagen'],
       };
 
       // Agregar el nuevo producto al arreglo de productos

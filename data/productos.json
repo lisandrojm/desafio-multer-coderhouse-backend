@@ -54,5 +54,20 @@
       "/img/1686052100798-644656899-300-Bigoteitor Army-Twitter.jpg",
       "/img/1686052100807-852660515-Background.jpg"
     ]
+  },
+  {
+    "id": "pid04ff",
+    "title": "aewr",
+    "description": "aesrer",
+    "code": "awerawer",
+    "price": "3",
+    "status": true,
+    "stock": "3",
+    "category": "sadffd",
+    "thumbnails": [
+      "/productos/1686053015249-692843477-300-Bigoteitor Army.jpg",
+      "/productos/1686053015272-17694493-300-Bigoteitor Army-Twitter.jpg",
+      "/productos/1686053015297-240103666-Background.jpg"
+    ]
   }
 ]
