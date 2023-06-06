@@ -9,7 +9,7 @@ const { Router } = require('express');
 // Importar el controlador de productos
 const productsController = require('./productsController/productsController');
 
-const upload = require('../../../utils/utilsMulter');
+const upload = require('../../../src/utils/utilsMulter');
 
 module.exports = (app) => {
   // Crear una nueva instancia del enrutador de Express
@@ -21,7 +21,8 @@ module.exports = (app) => {
   // Definir las rutas y asignar los controladores correspondientes
   router.get('/', productsController.getAllProducts);
   router.get('/:pid', productsController.getProductById);
-  router.post('/', upload.array('image', 5), productsController.addProduct);
   router.put('/:pid', productsController.updateProduct);
   router.delete('/:pid', productsController.deleteProduct);
+  // Ruta para agregar un producto, se utiliza el middleware 'upload' para manejar la carga de imágenes
+  router.post('/', upload.array('image', 5), productsController.addProduct);
 };

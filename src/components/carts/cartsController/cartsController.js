@@ -19,8 +19,8 @@ class CartsRouter {
     this.router = express.Router();
 
     /* Definir la ruta de los archivos de almacenamiento carrito.json y productos.json */
-    this.carritoFilePath = './data/carrito.json';
-    this.productsFilePath = './data/productos.json';
+    this.carritoFilePath = './src/data/carrito.json';
+    this.productsFilePath = './src/data/productos.json';
 
     /* Verificar y crear el archivo "carrito.json" si no existe o está vacío */
     this.initializeCarritoFile();

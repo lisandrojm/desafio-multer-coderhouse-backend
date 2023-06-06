@@ -1,0 +1,118 @@
+[
+  {
+    "id": "pid8052",
+    "title": "Producto Postman",
+    "description": "Este es un producto de Postman",
+    "code": "a1",
+    "price": 100,
+    "status": true,
+    "stock": 10,
+    "category": "Categoría Postman",
+    "thumbnails": "Sin imagen"
+  },
+  {
+    "id": "pid1b3e",
+    "title": "Titulo modificado",
+    "description": "Descripción modificada",
+    "code": "a2",
+    "price": 500,
+    "status": true,
+    "stock": 20,
+    "category": "Categoría Postman",
+    "thumbnails": [
+      "/ruta/de/image1.jpg",
+      "/ruta/de/image2.jpg",
+      "/ruta/de/image3.jpg"
+    ]
+  },
+  {
+    "id": "pid79bb",
+    "title": "awe",
+    "description": "eaaer",
+    "code": "awer",
+    "price": "3",
+    "status": true,
+    "stock": "3",
+    "category": "asdff",
+    "thumbnails": [
+      "/img/1686052069960-820340275-300-Bigoteitor Army.jpg",
+      "/img/1686052069987-884721883-300-Bigoteitor Army-Twitter.jpg",
+      "/img/1686052070012-760033959-Background.jpg"
+    ]
+  },
+  {
+    "id": "pidc988",
+    "title": "awe",
+    "description": "eaaer",
+    "code": "awer44",
+    "price": "3",
+    "status": true,
+    "stock": "3",
+    "category": "asdff",
+    "thumbnails": [
+      "/img/1686052100786-681805942-300-Bigoteitor Army.jpg",
+      "/img/1686052100798-644656899-300-Bigoteitor Army-Twitter.jpg",
+      "/img/1686052100807-852660515-Background.jpg"
+    ]
+  },
+  {
+    "id": "pidc2a2",
+    "title": "testing",
+    "description": "testing",
+    "code": "testing",
+    "price": "1",
+    "status": true,
+    "stock": "1",
+    "category": "testing",
+    "thumbnails": [
+      "/productos/1686095404338-258947652-1686056825602-83577466-Img_test_1.png",
+      "/productos/1686095404339-40153443-1686056825602-806927181-Img_test_2.png",
+      "/productos/1686095404339-299673083-1686056825603-873764636-Img_test_3.png"
+    ]
+  },
+  {
+    "id": "pid24d9",
+    "title": "testing2",
+    "description": "testing2",
+    "code": "testing2",
+    "price": "2",
+    "status": true,
+    "stock": "2",
+    "category": "testing2",
+    "thumbnails": [
+      "/productos/1686095431262-968581196-1686056825602-83577466-Img_test_1.png",
+      "/productos/1686095431263-642658445-1686056825602-806927181-Img_test_2.png",
+      "/productos/1686095431263-350442295-1686056825603-873764636-Img_test_3.png"
+    ]
+  },
+  {
+    "id": "pid5aba",
+    "title": "testing3",
+    "description": "testing2",
+    "code": "testing3",
+    "price": "3",
+    "status": true,
+    "stock": "3",
+    "category": "testing3",
+    "thumbnails": [
+      "/productos/1686095461132-690710611-1686056825602-83577466-Img_test_1.png",
+      "/productos/1686095461133-403164863-1686056825602-806927181-Img_test_2.png",
+      "/productos/1686095461133-605599916-1686056825603-873764636-Img_test_3.png"
+    ]
+  },
+  {
+    "id": "pid3889",
+    "title": "testing4",
+    "description": "testing4",
+    "code": "testing4",
+    "price": "4",
+    "status": true,
+    "stock": "4",
+    "category": "testing4",
+    "thumbnails": [
+      "/productos/1686095515555-849416319-1686056825602-83577466-Img_test_1.png",
+      "/productos/1686095515556-182214522-1686056825602-806927181-Img_test_2.png",
+      "/productos/1686095515556-258766378-1686056825603-873764636-Img_test_3.png"
+    ]
+  }
+]
