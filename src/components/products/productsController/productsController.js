@@ -104,13 +104,8 @@ class ProductRouter {
   // Agregar un nuevo producto
   addProduct = async (req, res) => {
     try {
-      const { id, title, description, code, price, stock, category } = req.body;
+      const { title, description, code, price, stock, category } = req.body;
       const image = req.file; // Obtener el archivo de imagen enviado
-      // Verificar si se envió el campo "id" en la solicitud
-      if (id) {
-        // Devolver un error si se envió el campo "id"
-        return res.status(400).json({ status: 'error', error: 'No envíe el ID del producto. Se genera automáticamente para que sea único e irrepetible' });
-      }
 
       // Verificar si faltan campos obligatorios
       if (!title || !description || !code || !price || !stock || !category) {
