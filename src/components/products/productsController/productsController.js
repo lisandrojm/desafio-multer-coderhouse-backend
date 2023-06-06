@@ -9,8 +9,6 @@ const express = require('express');
 const fs = require('fs').promises;
 /* Importar el módulo 'uuid' para generar identificadores únicos */
 const { v4: uuidv4 } = require('uuid');
-/* Multer */
-const upload = require('../../../../utils/utilsMulter');
 
 /* Definir la clase 'ProductsRouter' */
 class ProductRouter {
@@ -26,7 +24,7 @@ class ProductRouter {
     // Definir las rutas
     this.router.get('/', this.getAllProducts);
     this.router.get('/:pid', this.getProductById);
-    this.router.post('/', upload.single('image'), this.addProduct);
+    this.router.post('/', this.addProduct);
     this.router.put('/:pid', this.updateProduct);
     this.router.delete('/:pid', this.deleteProduct);
   }

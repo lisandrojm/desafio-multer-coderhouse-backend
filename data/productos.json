@@ -82,5 +82,41 @@
     "status": true,
     "stock": "3",
     "category": "asfd"
+  },
+  {
+    "id": "pid808c",
+    "status": true,
+    "thumbnails": "Sin imagen"
+  },
+  {
+    "id": "pidafdb",
+    "status": true,
+    "thumbnails": "Sin imagen"
+  },
+  {
+    "id": "pide051",
+    "status": true,
+    "thumbnails": "Sin imagen"
+  },
+  {
+    "id": "pidfe82",
+    "status": true,
+    "thumbnails": "/img/1686050111431-292367385-Background.jpg"
+  },
+  {
+    "id": "pided28",
+    "status": true,
+    "thumbnails": "/img/1686050303065-185273761-Background.jpg"
+  },
+  {
+    "id": "pidff7d",
+    "title": "2q34",
+    "description": "wqer",
+    "code": "q34",
+    "price": "3",
+    "status": true,
+    "stock": "3",
+    "category": "aewr",
+    "thumbnails": "/img/1686050685501-915277373-Background.jpg"
   }
 ]
