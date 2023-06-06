@@ -26,97 +26,33 @@
     ]
   },
   {
-    "id": "pid5289",
-    "title": "324",
-    "description": "wtrrt",
-    "code": "4twert",
-    "price": "4",
-    "status": true,
-    "stock": "4",
-    "category": "rte",
-    "thumbnails": "Sin imagen"
-  },
-  {
-    "id": "pidacb7",
-    "title": "324",
-    "description": "wtrrt",
-    "code": "4twertsdf",
-    "price": "4",
-    "status": true,
-    "stock": "4",
-    "category": "rte",
-    "thumbnails": "Sin imagen"
-  },
-  {
-    "id": "pid6422",
-    "title": "Producto Postman NUEVO",
-    "description": "Este es un producto de Postman NUEVO",
-    "code": "aewd6s7",
-    "price": 600,
-    "status": true,
-    "stock": 60,
-    "category": "Categoría Postman",
-    "thumbnails": "Sin imagen"
-  },
-  {
-    "id": "pideaed",
-    "title": "Producto Postman NUEVO",
-    "description": "Este es un producto de Postman NUEVO",
-    "code": "aes7",
-    "price": 600,
-    "status": true,
-    "stock": 60,
-    "category": "Categoría Postman",
-    "thumbnails": "Sin imagen"
-  },
-  {
-    "id": "pid65b3",
-    "status": true
-  },
-  {
-    "id": "pid43ec",
-    "title": "dsf",
-    "description": "fs",
-    "code": "sdaf",
+    "id": "pid79bb",
+    "title": "awe",
+    "description": "eaaer",
+    "code": "awer",
     "price": "3",
     "status": true,
     "stock": "3",
-    "category": "asfd"
+    "category": "asdff",
+    "thumbnails": [
+      "/img/1686052069960-820340275-300-Bigoteitor Army.jpg",
+      "/img/1686052069987-884721883-300-Bigoteitor Army-Twitter.jpg",
+      "/img/1686052070012-760033959-Background.jpg"
+    ]
   },
   {
-    "id": "pid808c",
-    "status": true,
-    "thumbnails": "Sin imagen"
-  },
-  {
-    "id": "pidafdb",
-    "status": true,
-    "thumbnails": "Sin imagen"
-  },
-  {
-    "id": "pide051",
-    "status": true,
-    "thumbnails": "Sin imagen"
-  },
-  {
-    "id": "pidfe82",
-    "status": true,
-    "thumbnails": "/img/1686050111431-292367385-Background.jpg"
-  },
-  {
-    "id": "pided28",
-    "status": true,
-    "thumbnails": "/img/1686050303065-185273761-Background.jpg"
-  },
-  {
-    "id": "pidff7d",
-    "title": "2q34",
-    "description": "wqer",
-    "code": "q34",
+    "id": "pidc988",
+    "title": "awe",
+    "description": "eaaer",
+    "code": "awer44",
     "price": "3",
     "status": true,
     "stock": "3",
-    "category": "aewr",
-    "thumbnails": "/img/1686050685501-915277373-Background.jpg"
+    "category": "asdff",
+    "thumbnails": [
+      "/img/1686052100786-681805942-300-Bigoteitor Army.jpg",
+      "/img/1686052100798-644656899-300-Bigoteitor Army-Twitter.jpg",
+      "/img/1686052100807-852660515-Background.jpg"
+    ]
   }
 ]

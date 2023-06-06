@@ -103,7 +103,7 @@ class ProductRouter {
   addProduct = async (req, res) => {
     try {
       const { title, description, code, price, stock, category } = req.body;
-      const image = req.file; // Obtener el archivo de imagen enviado
+      const image = req.files; // Obtener el archivo de imagen enviado
 
       // Verificar si faltan campos obligatorios
       if (!title || !description || !code || !price || !stock || !category) {
@@ -138,7 +138,7 @@ class ProductRouter {
         status: true,
         stock,
         category,
-        thumbnails: image ? '/img/' + image.filename : 'Sin imagen',
+        thumbnails: image ? image.map((image) => '/img/' + image.filename) : ['Sin imagen'],
       };
 
       // Agregar el nuevo producto al arreglo de productos

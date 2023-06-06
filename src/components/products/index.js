@@ -21,7 +21,7 @@ module.exports = (app) => {
   // Definir las rutas y asignar los controladores correspondientes
   router.get('/', productsController.getAllProducts);
   router.get('/:pid', productsController.getProductById);
-  router.post('/', upload.single('image'), productsController.addProduct);
+  router.post('/', upload.array('image', 5), productsController.addProduct);
   router.put('/:pid', productsController.updateProduct);
   router.delete('/:pid', productsController.deleteProduct);
 };
