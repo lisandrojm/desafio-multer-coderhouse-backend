@@ -69,5 +69,20 @@
       "/productos/1686053015272-17694493-300-Bigoteitor Army-Twitter.jpg",
       "/productos/1686053015297-240103666-Background.jpg"
     ]
+  },
+  {
+    "id": "pid69b4",
+    "title": "Test",
+    "description": "Test",
+    "code": "Test",
+    "price": "1",
+    "status": true,
+    "stock": "1",
+    "category": "Test",
+    "thumbnails": [
+      "/productos/1686056825602-83577466-Img_test_1.png",
+      "/productos/1686056825602-806927181-Img_test_2.png",
+      "/productos/1686056825603-873764636-Img_test_3.png"
+    ]
   }
 ]
