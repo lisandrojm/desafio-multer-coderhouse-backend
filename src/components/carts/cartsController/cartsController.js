@@ -15,22 +15,12 @@ const { v4: uuidv4 } = require('uuid');
 /* Definir la clase 'CartsRouter' */
 class CartsRouter {
   constructor() {
-    /* Crear una instancia del enrutador de Express */
-    this.router = express.Router();
-
     /* Definir la ruta de los archivos de almacenamiento carrito.json y productos.json */
     this.carritoFilePath = './src/data/carrito.json';
     this.productsFilePath = './src/data/productos.json';
 
     /* Verificar y crear el archivo "carrito.json" si no existe o está vacío */
     this.initializeCarritoFile();
-
-    /* Definir las rutas */
-    this.router.post('/', this.addCart);
-    this.router.get('/:cid', this.getCartById);
-    this.router.post('/:cid/product/:pid', this.addProductToCart);
-    this.router.delete('/:cid/product/:pid', this.deleteProductToCart);
-    this.router.delete('/:cid', this.deleteCart);
   }
 
   /* Verificar y crear el archivo "carrito.json" si no existe o está vacío */
